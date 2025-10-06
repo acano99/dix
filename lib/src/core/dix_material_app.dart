@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'dix_keys.dart';
 
+/// Widget que corresponde al punto de entrada de la aplicación. Este es un wrapper
+/// del MaterialApp. Este configura todo lo necesario para usar el contexto de manera
+/// global en la aplicación
 class DixMaterialApp extends StatefulWidget {
   final GlobalKey<NavigatorState>? navigatorKey;
   final GlobalKey<ScaffoldMessengerState>? scaffoldMessengerKey;
@@ -149,7 +152,7 @@ class _DixMaterialAppState extends State<DixMaterialApp> {
         builder:
             widget.builder ??
             (context, child) {
-              // Mantener DixKeys.scaffoldMessengerKey si quieres
+              // Mantener DixKeys.scaffoldMessengerKey
               return ScaffoldMessenger(
                 key: DixKeys.scaffoldMessengerKey,
                 child: child ?? const SizedBox.shrink(),
