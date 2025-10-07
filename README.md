@@ -20,7 +20,7 @@
    dependencies:
      dix:
        git:
-         url: https://github.com/tu_usuario/dix.git
+         url: https://github.com/acano99/dix.git
          ref: main
    ```
 
