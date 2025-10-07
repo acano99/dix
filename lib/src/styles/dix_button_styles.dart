@@ -30,9 +30,9 @@ class DixButtonStyles {
   static final DixButtonStyles instance = DixButtonStyles._();
 
   /// Esquema de colores obtenido del tema actual, usando el contexto de [DixKeys.navigatorKey].
-  final colorScheme = Theme.of(
-    DixKeys.navigatorKey.currentContext!,
-  ).colorScheme;
+  ColorScheme get colorScheme => Theme.of(
+        DixKeys.navigatorKey.currentContext!,
+      ).colorScheme;
 
   /// Color de fondo usado para [ElevatedButton].
   late Color backgroundColor;

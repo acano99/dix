@@ -7,5 +7,7 @@ export 'src/core/dix_material_app.dart';
 export 'src/feedback/dix_snackbar.dart';
 // Estilos
 export 'src/styles/dix_button_styles.dart';
+export 'src/styles/dix_dimens.dart';
+export 'src/styles/dix_text_theme.dart';
 // Utilidades
 export 'src/utils/dix_utils.dart';
