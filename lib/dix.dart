@@ -11,3 +11,4 @@ export 'src/styles/dix_dimens.dart';
 export 'src/styles/dix_text_theme.dart';
 // Utilidades
 export 'src/utils/dix_utils.dart';
+export 'src/utils/dix_either.dart';
